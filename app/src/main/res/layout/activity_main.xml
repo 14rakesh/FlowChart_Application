@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ddllTop"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#1568ff">
+
+    <AbsoluteLayout
+        android:id="@+id/abs"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:layout_weight="0.87"
+        tools:context=".DragAndDrop"
+        android:background="@drawable/commonroundedcornerlayout">
+
+        <ImageButton
+            android:id="@+id/btnzoomin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zoomin"
+            android:background="@drawable/zoom_button"
+            android:layout_x="-10dp"
+            android:layout_y="445dp" />
+
+        <ImageButton
+            android:id="@+id/btnzoomout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zoomout"
+            android:background="@drawable/zoom_button"
+            android:layout_x="310dp"
+            android:layout_y="445dp" />
+
+        <ImageButton
+            android:id="@+id/btnrotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rotate"
+            android:src="@drawable/rotate"
+            android:background="@drawable/zoom_button"
+            android:layout_x="148dp"
+            android:layout_y="445dp" />
+    </AbsoluteLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical"
+        android:background="#03a2ff">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="start"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnAddCircle"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/circle"
+                    android:drawableTop="@drawable/circle"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/btnAddOval"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/oval"
+                    android:drawableTop="@drawable/oval"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/btnAddrect"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rectangle"
+                    android:drawableTop="@drawable/rectangle"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/btnAdd_rhombus"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/rhombus"
+                    android:drawableTop="@drawable/rhombus"
+                    android:background="@android:color/transparent"/>
+                <Button
+                    android:id="@+id/btnAdd_Square"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/square"
+                    android:drawableTop="@drawable/square"
+                    android:background="@android:color/transparent"/>
+
+                <Button
+                    android:id="@+id/btnLine"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/arrow"
+                    android:drawableTop="@drawable/longarrowdown"
+                    android:background="@android:color/transparent"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</LinearLayout>

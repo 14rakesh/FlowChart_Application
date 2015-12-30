@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rakeshyadav.intimeflowchart.MainActivity">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/delete_button"
+        android:title="@string/delete"
+        android:icon="@drawable/delete"
+        android:orderInCategory="200"
+        app:showAsAction="always" />
+    <item android:id="@+id/save_button"
+        android:title="@string/save"
+        android:orderInCategory="300"
+        app:showAsAction="always" />
+    <item android:id="@+id/open_button"
+        android:title="@string/open"
+        android:orderInCategory="400"
+        app:showAsAction="always" />
+
+</menu>

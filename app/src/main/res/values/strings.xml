@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InTime FlowChart</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">add</string>
+    <string name="title_activity_add_project">Add New Project</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="open">Open</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="oval">Oval</string>
+    <string name="circle">Circle</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="arrow">Arrow</string>
+    <string name="rotate">Rotate</string>
+    <string name="zoomin">IN</string>
+    <string name="zoomout">Out</string>
+    <string name="rhombus">Rhombus</string>
+    <string name="square">Square</string>
+    <string name="list_project">List Of Project</string>
+</resources>
